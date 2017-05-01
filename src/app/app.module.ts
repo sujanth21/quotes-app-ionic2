@@ -8,7 +8,7 @@ import { MyApp } from './app.component';
 import { Tabs } from '../pages/tabs/tabs';
 import { Favorites } from '../pages/favorites/favorites';
 import { Quotes } from '../pages/quotes/quotes';
-import { Quote } from '../pages/quote/quote';
+import { QuotePage } from '../pages/quote/quote';
 import { Library } from '../pages/library/library';
 import { Settings } from '../pages/settings/settings';
 
@@ -22,7 +22,7 @@ import { QuoteService } from '../services/quotes';
     Library,
     Settings,
     Quotes,
-    Quote
+    QuotePage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +36,7 @@ import { QuoteService } from '../services/quotes';
     Library,
     Settings,
     Quotes,
-    Quote
+    QuotePage
   ],
   providers: [
     StatusBar,

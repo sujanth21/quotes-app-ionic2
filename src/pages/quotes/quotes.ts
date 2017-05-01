@@ -30,8 +30,7 @@ export class Quotes implements OnInit{
   onAddToFavorite(SelectedQuote: Quote) {
     const alert = this.alertCtrl.create({
       title: 'Add Quote',
-      subTitle: 'Are you sure?',
-      message: 'Are you sure you want to add the quote?',
+      message: 'Are you sure you want to add this quote?',
       buttons: [
         {
           text: 'Yes, go ahead',

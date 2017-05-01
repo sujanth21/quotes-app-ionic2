@@ -1,0 +1,20 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>{{ quoteGroup.category | uppercase }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card *ngFor="let quote of quoteGroup.quotes; let i =index">
+    <ion-card-header text-center>
+      #{{ i + 1 }}
+    </ion-card-header>
+    <ion-card-content>
+      {{ quote.text }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
